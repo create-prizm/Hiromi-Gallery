@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+html * {
+	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "ヒラギノ角ゴ Pro W3";
+	
+}
+
+header{
+	padding:32px;
+	margin-bottom: 10px;
+	background-color:#EDE9C0;
+	
+}
+body{
+	margin-left: auto;
+	margin-right: auto;
+	background:#FFFDEF;
+}
+img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	
+}
+footer{
+	padding:20px 30px;
+	background-color:#EDE9C0;
+	
+}
+
+.header-logo {
+	text-align:center;
+	display: block;
+	}
+.style-nav ul{
+	list-style-type: none;
+}
+.style-nav ul li a{
+	text-decoration:none;
+	color: #1A53A0;
+	text-align:center;
+	display:block; 
+	padding:8px ;
+	
+}
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+.row:after{
+	clear:both;
+}
+.hero{
+	background-image: url("img/tachiaraiDSC02694.jpg");
+	background-size: cover;
+	padding: 20px 20px 50px 20px;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 200;
+	margin-bottom: 50px;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 200;
+	margin-bottom: 38px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 200;
+	margin-bottom: 100px;
+}
+h4 {
+	font-size: 48px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+.buttom{
+	border: #FFFFFF solid;
+	padding: 8px 20px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.beige-box{
+	background-color:#AF7D7E;
+	color:#FFFFFF;
+	padding: 60px 30px;
+	text-align: center;
+	
+}
+.gray-box{
+	background-color:#777777;
+	color:#FFFFFF;
+	padding: 60px 30px;
+	text-align: center;
+	
+}
+.footer-text{
+	font-size: 11px;
+	margin-bottom: 20px;
+}
+
+.col{
+	width: 100%;
+}
+
+
+/*タブレット用*/
+@media (min-width: 768px){
+	body{
+		max-width: 778px;
+	}
+	.style-nav ul li{
+		display:inline-block;
+	}
+	.style-nav ul{
+		text-align:center;}
+	h1 {
+	font-size: 30px;
+	margin-bottom: 90px;
+}
+	h2 {
+		margin-bottom: 16px;
+	}
+	.text1{
+		padding-bottom: 36px;
+	}
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+}
+
+
+
+/*デストップ用*/
+@media (min-width: 1024px){
+	body{
+		max-width: 1000px;
+	}
+	.header-logo{
+		float:left;
+	}
+	.style-nav{
+		float:right;
+	}
+	.col-lg-qtr{
+		width:25%;
+	}
+}
+
